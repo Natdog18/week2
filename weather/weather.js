@@ -7,7 +7,7 @@ $(function () {
 
     $.ajax(weather, { dataType: "jsonp" }).done(function (data) {
       console.log(data);
-      $(".temp").append(" temperature: " + data.currently.temperature);
+      $("#card1 .temp").html(" temperature: " + data.currently.temperature);
       $(".maxtemp").append("Current MaxTemperature:" + data.daily.data[0].temperatureMax)
       $(".precip").append("Percipation:" + data.daily.data[0].precipIntensity);
       $(".min").append("Current Mintemperature:" + data.daily.data[0].temperatureMin);
