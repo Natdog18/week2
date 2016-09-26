@@ -5,7 +5,6 @@ body {
 
 
 
-
 .card1{
     background-image: url("http://www.weatherstudios.com/media/17887/Tornado_chasing_in_sunny_weather_758x505.jpg");
     background-repeat:no-repeat;
@@ -13,48 +12,36 @@ body {
     height: 600px;
     width: 400px;
     border-radius: 25px;
-    
+
 }
-    
-    
-
-
-
-
-.card3sun{
+    /*.card2{
     background-image: url("http://www.weatherstudios.com/media/17887/Tornado_chasing_in_sunny_weather_758x505.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    border-radius
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    .container {
+    position: relative;
 }
-.card4cloudy{
-    background-image: url("https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/e35/sh0.08/11379781_108420182835883_1166276846_n.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius
+
+.card2 {
+    position: absolute;
+    top: 8px;
+    right: 100px;
+    font-size: 18px;
 }
-.card5rain{
-    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRSG4EVCum7o4GwSsKLZ65Q1AEvii9Fa0M7fIXwWa2bmQQTaZhoOQ");
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius:
-}
-.card6tornado{
-    background-image: url("http://thiswallpaper.com/cdn/hdwallpapers/458/monster%20tornado%20the%20arm%20of%20god%20high%20quality%20wallpaper.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius
-}
+
+
     
-  .card2{  
-    height: 100%;
-    width:100%;
-    background-repeat:no-repeat;
-    color:white;
-    align-content: center;
-    text-overflow: ellipsis;
-    font-family: "Lato", sans-serif;
-}
+
+
+    }*/
+   
+    
+
+    
+    
 
 .sidenav {
     height: 100%;

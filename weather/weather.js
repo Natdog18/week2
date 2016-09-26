@@ -11,7 +11,7 @@ $(function () {
       $("#card1 .maxtemp").html("Current MaxTemperature:" + data.daily.data[0].temperatureMax);
       $("#card1 .precip").html("Percipation:" + data.daily.data[0].precipIntensity);
       $("#card1 .min").html("Current Mintemperature:" + data.daily.data[0].temperatureMin);
-      $("#card1 .time").html("newDate" + result.currently.time * 1000)
+      $("#card1 .time").html("newDate" + result.currently.time * 1000);
 
     });
   }
@@ -28,8 +28,8 @@ $(function () {
       // $(".location").append(longitude);
       // $(".location").append(data.results[0].address_components[1].long_name);
       // $(".location").append(data.results[0].address_components[2].long_name);
-      $(".location").append(city+' '+ state);
-      // console.log(data);
+      $(".location").html(city+' '+ state);
+      console.log(data);
 
 
       weatherAtLocation(latitude, longitude);
@@ -40,7 +40,12 @@ $(function () {
     var zipcode = $("#location").val();
     getLocation(zipcode);
   });
-
+ 
+ weatherAtLocation(latitude, longitude);
 });
-
+ getLocation(41635);
+  $("#more2").click(function () {
+    var zipcode = $("#location2").val();
+    getLocation(zipcode);
+  });
 
