@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html>
+
 
 <head>
-    <title></title>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js "></script>
+    <script src="weather.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="cyborg.css">
+    <link rel="stylesheet" href="weather.css">
+
+    <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="cyborg.css">
-    <link rel="stylesheet" href="weather.css">
 
 
-
-
-
-    <!--<link rel="stylesheet" href="bootstrap.css">-->
 </head>
 
 <body>
-
 
 
     <div class="container">
@@ -27,7 +30,7 @@
                 <div class="card1">
                     <form action="action_page.php">
                         <br>
-                        <input type="text" id="Location" placeholder="Enter Zip Code">
+                        <input type="text" id="location" placeholder="Enter Zip Code">
                         <br>
         
                         <span class="glyphicon glyphicon-plus-sign" value="Submit" id="more"></span>
@@ -99,12 +102,34 @@
         </div>
     </div>
 
-    <!-- Official JQuery -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="weather.js"></script>
+
+    <div class="container">
+        <span style="font-size:30px;cursor:pointer " onclick="openNav() ">&#9776; Info</span>
+        <div id="mySidenav " class="sidenav ">
+            <a href="javascript:void(0) " class="closebtn " onclick="closeNav() ">&times;</a>
+            <ul <li>
+                <p><a href="http://locationindependent.com/travel-safety-tips-cant-afford-ignore// ">Travel Safety Tips. </a></p>
+                <li>
+                    <li>
+                        <p><a href="https://weather.com/ "> Your Local Weather. </a></p>
+                        <li>
+                            <li>
+                                <p><a href="https://www.ready.gov/alerts"> Weather and Safety Alerts! </a></p>
+                                <li>
+            </ul>
+            <li>
+                <script>
+                                        function openNav() {
+                                    document.getElementById("mySidenav ").style.width = "250px ";
+                                }
+
+                                function closeNav() {
+                                    document.getElementById("mySidenav ").style.width = "0 ";
+                                }
+                                </script>
+        </div>
+
 </body>
 
 </html>

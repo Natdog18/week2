@@ -1,0 +1,98 @@
+body {
+    background-image: url("http://wallpaper.zone/img/336526.jpg");
+    background-color: #cccccc;
+}
+
+
+
+
+.card1{
+    background-image: url("http://media-cache-ak0.pinimg.com/736x/98/1a/04/981a04302e1627b39af83b37ef02c68f.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius
+}
+
+.card2lighting{
+    background-image: url("http://wallpaper.zone/img/2261252.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius
+}
+.card3sun{
+    background-image: url("http://www.weatherstudios.com/media/17887/Tornado_chasing_in_sunny_weather_758x505.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius
+}
+.card4cloudy{
+    background-image: url("https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/e35/sh0.08/11379781_108420182835883_1166276846_n.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius
+}
+.card5rain{
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRSG4EVCum7o4GwSsKLZ65Q1AEvii9Fa0M7fIXwWa2bmQQTaZhoOQ");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius
+}
+.card6tornado{
+    background-image: url("http://thiswallpaper.com/cdn/hdwallpapers/458/monster%20tornado%20the%20arm%20of%20god%20high%20quality%20wallpaper.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius
+}
+    
+  .card2{  
+    height: 100%;
+    width:100%;
+    background-repeat:no-repeat;
+    color:white;
+    align-content: center;
+    text-overflow: ellipsis;
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3b485e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
