@@ -8,9 +8,10 @@ $(function () {
     $.ajax(weather, { dataType: "jsonp" }).done(function (data) {
       console.log(data);
       $("#card1 .temp").html(" temperature: " + data.currently.temperature);
-      $(".maxtemp").append("Current MaxTemperature:" + data.daily.data[0].temperatureMax)
-      $(".precip").append("Percipation:" + data.daily.data[0].precipIntensity);
-      $(".min").append("Current Mintemperature:" + data.daily.data[0].temperatureMin);
+      $("#card1 .maxtemp").html("Current MaxTemperature:" + data.daily.data[0].temperatureMax);
+      $("#card1 .precip").html("Percipation:" + data.daily.data[0].precipIntensity);
+      $("#card1 .min").html("Current Mintemperature:" + data.daily.data[0].temperatureMin);
+      $("#card1 .time").html("newDate" + result.currently.time * 1000)
 
     });
   }
@@ -28,7 +29,7 @@ $(function () {
       // $(".location").append(data.results[0].address_components[1].long_name);
       // $(".location").append(data.results[0].address_components[2].long_name);
       $(".location").append(city+' '+ state);
-      console.log(data);
+      // console.log(data);
 
 
       weatherAtLocation(latitude, longitude);

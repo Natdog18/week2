@@ -1,24 +1,26 @@
 body {
-    background-image: url("http://wallpaper.zone/img/336526.jpg");
-    background-color: #cccccc;
+    
+    background-color: lightblue;
 }
 
 
 
 
 .card1{
-    background-image: url("http://media-cache-ak0.pinimg.com/736x/98/1a/04/981a04302e1627b39af83b37ef02c68f.jpg");
+    background-image: url("http://www.weatherstudios.com/media/17887/Tornado_chasing_in_sunny_weather_758x505.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    border-radius
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    
 }
+    
+    
 
-.card2lighting{
-    background-image: url("http://wallpaper.zone/img/2261252.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius
-}
+
+
+
 .card3sun{
     background-image: url("http://www.weatherstudios.com/media/17887/Tornado_chasing_in_sunny_weather_758x505.jpg");
     background-repeat:no-repeat;
@@ -35,7 +37,7 @@ body {
     background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRSG4EVCum7o4GwSsKLZ65Q1AEvii9Fa0M7fIXwWa2bmQQTaZhoOQ");
     background-repeat:no-repeat;
     background-size:cover;
-    border-radius
+    border-radius:
 }
 .card6tornado{
     background-image: url("http://thiswallpaper.com/cdn/hdwallpapers/458/monster%20tornado%20the%20arm%20of%20god%20high%20quality%20wallpaper.jpg");
